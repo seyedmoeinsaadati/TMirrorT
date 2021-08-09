@@ -19,26 +19,8 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 ## Do you wanna Demo?
 
 1. Download latest TMirrorT package.
-
 2. Open it in unity editor.
-
 3. Open "Demo" Scene and play it.
-
-   * Axis Mirror component:
-
-     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/axis_mirror.png" align="right">
-
-     
-
-   * Plane mirror component:
-
-     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/plane_mirror.png" align="right">
-
-   * Point Mirror component:
-
-     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/point_mirror.png" align="right">
-
-     * you can limit point mirror axis with 'be axis' field and also change rotation behavior with 'custom rotation quaternion' field)
 
 ## How to use TmirrorT ?
 
