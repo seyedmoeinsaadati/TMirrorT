@@ -36,7 +36,7 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
    * Point Mirror component:
 
-     <img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/point_mirror.png" align="right">
+     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/point_mirror.png" align="right">
 
      * you can limit point mirror axis with 'be axis' field and also change rotation behavior with 'custom rotation quaternion' field)
 
@@ -58,7 +58,7 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
      * Mirror objects along X, Y, Z axes.
 
-     <img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/axis_mirror.png" align="right">
+     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/axis_mirror.png" align="right">
 
      
 
@@ -66,13 +66,13 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
      * Mirror objects along XZ, XY, ZY axes.
 
-     <img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/plane_mirror.png" align="right">
+     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/plane_mirror.png" align="right">
 
    * Point Mirror component:
 
      * Mirror objects along a point
 
-     <img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/point_mirror.png" align="right">
+     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/point_mirror.png" align="right">
 
      * you can limit point mirror axis with 'be axis' field and also change rotation behavior with 'custom rotation quaternion' field)
 
