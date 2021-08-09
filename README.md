@@ -1,6 +1,6 @@
 # TmirrorT - Unity Tools
 
-<img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/unityLogo.png" align="right" height="70px">
+<img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/unityLogo.png" align="right" height="70px">
 Mirror game objects along point, axis and plane
 
 If you like this project and/or find it useful, please leave a **Star** on this repository.
@@ -14,13 +14,13 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
 ## Showcase
 
-<img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/main.gif">
+<img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/main.gif">
 
-<img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/axis_mirror.gif">
+<img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/axis_mirror.gif">
 
-<img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/plane_mirror.gif" >
+<img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/plane_mirror.gif" >
 
-<img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/point_mirror.gif">
+<img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/point_mirror.gif">
 
 ## Do you wanna Demo?
 
@@ -30,17 +30,17 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
 3. Open "Demo" Scene and play it.
 
-   * <img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/axis_mirror.png" align="right">
+   * <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/axis_mirror.png" align="right">
 
      
 
    * Plane mirror component:
 
-     <img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/plane_mirror.png" align="right">
+     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/plane_mirror.png" align="right">
 
    * Point Mirror component:
 
-     <img src="https://github.com/seyedmoeinsaadati/TMirroT/blob/main/media/point_mirror.png" align="right">
+     <img src="https://github.com/seyedmoeinsaadati/TMirrorT/blob/main/media/point_mirror.png" align="right">
 
      * you can limit point mirror axis with 'be axis' field and also change rotation behavior with 'custom rotation quaternion' field)
 
