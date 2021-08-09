@@ -1,19 +1,22 @@
 ﻿using UnityEngine;
 namespace SMSPackages.TMirrorT
 {
-    public class MirrorMaterial : MonoBehaviour
+    public class MirrorMaterial : MirrorObject
     {
         public MeshRenderer targetMeshRenderer;
         MeshRenderer meshRenderer;
         public int mat_index;
         public bool negativeMode;
-        void Start()
+        new void Start()
         {
+            base.Start();
+            targetMeshRenderer = targetMeshRenderer.GetComponent<MeshRenderer>();
             meshRenderer = GetComponent<MeshRenderer>();
         }
 
-        private void FixedUpdate()
+        public override void Refresh()
         {
+            base.Refresh();
             meshRenderer.materials[mat_index].color = negativeMode ? Color.white - targetMeshRenderer.material.color : targetMeshRenderer.material.color;
         }
     }

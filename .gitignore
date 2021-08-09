@@ -635,3 +635,5 @@ FodyWeavers.xsd
 /Assets/Packages/Randomize/
 /Assets/Packages/myPrefectUnity/
 /Assets/Packages/DOTween/
+/Assets/Packages/UILogger/
+/Assets/Packages/TransformControl/

@@ -1,31 +1,39 @@
 ﻿using UnityEngine;
+
 namespace SMSPackages.TMirrorT
 {
-    public class MirrorTransform : MonoBehaviour
+    public class MirrorTransform : MirrorObject
     {
         [Tooltip("IMirror Component is prerequisites")]
         public Transform mirror;
         IMirror iMirror;
-        public Transform target;
 
         Quaternion newRotation;
-        Vector3 newPosition;
+        Vector3 newPosition, newScale;
 
-        void Start()
+        new void Start()
         {
+            base.Start();
             iMirror = mirror.GetComponent<IMirror>();
+            if (iMirror == null)
+            {
+                Debug.LogError("IMirror is null. Add IMirror component to mirror object");
+            }
         }
 
-        void Update()
+        public override void Refresh()
         {
-
-        }
-        void FixedUpdate()
-        {
+            if (iMirror == null)
+            {
+                Debug.LogError("IMirror is null. Add IMirror component to mirror object");
+                return;
+            }
             newPosition = iMirror.GetMirrorPosition(target.position);
             newRotation = iMirror.GetMirrorRotation(target.rotation);
+            newScale = iMirror.GetMirrorScale(target.localScale);
             transform.position = newPosition;
             transform.rotation = newRotation;
+            transform.localScale = newScale;
         }
 
         public void Hide()
@@ -42,13 +50,6 @@ namespace SMSPackages.TMirrorT
             Debug.Log(name + " Disabled.");
         }
 
-        void OnDrawGizmos()
-        {
-            if (mirror != null)
-            {
-                Gizmos.color = Color.white;
-                Gizmos.DrawLine(transform.position, mirror.transform.position);
-            }
-        }
+
     }
 }
