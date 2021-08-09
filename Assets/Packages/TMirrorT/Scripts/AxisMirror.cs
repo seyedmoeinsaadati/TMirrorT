@@ -1,5 +1,4 @@
-﻿using SMSPackages.ThreeD;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace SMSPackages.TMirrorT
 {

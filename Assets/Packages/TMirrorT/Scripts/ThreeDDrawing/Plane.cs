@@ -1,8 +1,6 @@
-using System;
-using UnityEditor;
 using UnityEngine;
 
-namespace SMSPackages.ThreeD
+namespace SMSPackages.TMirrorT
 {
 
     public class Plane : ThreeDDrawing

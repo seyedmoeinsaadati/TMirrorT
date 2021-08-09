@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace SMSPackages.TMirrorT
 {
-    public class PlaneMirror : ThreeD.Plane, IMirror
+    public class PlaneMirror : Plane, IMirror
     {
         public float factor = 1;
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SMSPackages.ThreeD
+namespace SMSPackages.TMirrorT
 {
     public abstract class ThreeDDrawing : MonoBehaviour
     {
