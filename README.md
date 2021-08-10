@@ -18,9 +18,7 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
 ## Do you wanna Demo?
 
-1. Download latest TMirrorT package.
-2. Open it in unity editor.
-3. Open "Demo" Scene and play it.
+[Download Demo](https://m100eti.itch.io/symmetry-points) and play it.
 
 ## How to use TmirrorT ?
 
